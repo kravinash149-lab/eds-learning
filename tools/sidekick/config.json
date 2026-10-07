@@ -9,9 +9,6 @@
         ],
         "url": "http://localhost:4502/assets.html/content/dam/",
         "isPalette": true,
-        "includePaths": [
-          "**.docx**"
-        ],
         "paletteRect": "top: 50px; bottom: 10px; right: 10px; left: auto; width:400px; height: calc(100vh - 60px)"
       }
     ]
