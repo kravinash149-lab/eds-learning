@@ -7,7 +7,7 @@
         "environments": [
           "edit"
         ],
-        "url": "https://experience.adobe.com/solutions/CQ-assets-selectors/static-assets/resources/franklin/asset-selector.html",
+        "url": "http://localhost:4502/assets.html/content/dam/",
         "isPalette": true,
         "includePaths": [
           "**.docx**"
