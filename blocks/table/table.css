@@ -1,0 +1,93 @@
+/* Container framework styling */
+.countries.block .table-responsive {
+    width: 100%;
+    overflow-x: auto;
+    margin: 2rem 0;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    border-radius: 8px;
+    border: 1px solid #e1e1e1;
+    font-family: var(--body-font-family, sans-serif);
+  }
+  
+  /* Core semantic table rules */
+  .countries.block .countries-table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    background-color: #ffffff;
+  }
+  
+  /* Header style passes */
+  .countries.block .countries-table th {
+    background-color: #f5f5f5;
+    color: #333333;
+    font-weight: 600;
+    padding: 12px 16px;
+    border-bottom: 2px solid #e1e1e1;
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    letter-spacing: 0.05em;
+  }
+  
+  /* Data cells styling */
+  .countries.block .countries-table td {
+    padding: 12px 16px;
+    border-bottom: 1px solid #e1e1e1;
+    color: #555555;
+    font-size: 0.95rem;
+  }
+  
+  /* Zebra striping for rapid visual scanning */
+  .countries.block .countries-table tbody tr:nth-of-type(even) {
+    background-color: #fafafa;
+  }
+  
+  /* Elegant hover interaction */
+  .countries.block .countries-table tbody tr:hover {
+    background-color: #f1f5f9;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  /* System Exception Styling */
+  .countries.block .table-error {
+    padding: 16px;
+    background-color: #fdf2f2;
+    color: #b91c1c;
+    border: 1px solid #f87171;
+    border-radius: 6px;
+    text-align: center;
+  }
+  
+  /* Filter Layout Elements */
+.countries.block .countries-filter-wrapper {
+    margin-bottom: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-family: var(--body-font-family, sans-serif);
+  }
+  
+  .countries.block .countries-filter-wrapper label {
+    font-weight: 600;
+    color: #333333;
+    font-size: 0.95rem;
+  }
+  
+  /* Styled HTML Dropdown Element */
+  .countries.block .country-dropdown {
+    padding: 8px 16px;
+    font-size: 0.95rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #333333;
+    outline: none;
+    cursor: pointer;
+    min-width: 200px;
+    transition: border-color 0.2s ease;
+  }
+  
+  .countries.block .country-dropdown:focus {
+    border-color: #0284c7; /* Subtle highlights on click focus */
+  }
+  
