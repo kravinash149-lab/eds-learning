@@ -1,0 +1,26 @@
+indices:
+  content:
+    include:
+      - /**
+    properties:
+      path:
+        value: pathname
+
+      title:
+        select: head > title
+
+      description:
+        select: meta[name="description"]
+        attr: content
+
+      author:
+        select: meta[name="author"]
+        attr: content
+
+      template:
+        select: meta[name="template"]
+        attr: content
+
+      keywords:
+        select: meta[name="keywords"]
+        attr: content
