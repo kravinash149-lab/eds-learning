@@ -1,26 +1,30 @@
+version: 1
+
 indices:
   content:
     include:
       - /**
     properties:
       path:
-        value: pathname
+        select: none
+        value: path
 
       title:
         select: head > title
+        value: textContent(el)
 
       description:
-        select: meta[name="description"]
-        attr: content
+        select: head > meta[name="description"]
+        value: attribute(el, "content")
 
       author:
-        select: meta[name="author"]
-        attr: content
+        select: head > meta[name="author"]
+        value: attribute(el, "content")
 
       template:
-        select: meta[name="template"]
-        attr: content
+        select: head > meta[name="template"]
+        value: attribute(el, "content")
 
       keywords:
-        select: meta[name="keywords"]
-        attr: content
+        select: head > meta[name="keywords"]
+        value: attribute(el, "content")
